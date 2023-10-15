@@ -11,22 +11,32 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
   </head>
   <body>
     <header class="header">
       <img src="img/Subtract.jpg" alt="" />
       <div class="header__navigation">
-        <a class="button__navigator" href="">Контакти</a>
-        <a class="button__navigator" href="">Головна</a>
-        <a class="button__navigator button__navigatorLast" href=""
-          >Із чим ми допомагаємо</a
-        >
-        <button class="button__funt">Підтримати фонд</button>
-        <!-- <div class="header__button"></div> -->
+        <div class="menu__icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <nav class="header__menu">
+          <a class="button__navigator" href="#contacts">Контакти</a>
+          <a class="button__navigator" href="#main">Головна</a>
+          <a
+            class="button__navigator button__navigatorLast"
+            href="#description__directions"
+            >Із чим ми допомагаємо</a
+          >
+          <button class="button__funt">Підтримати фонд</button>
+          <!-- <div class="header__button"></div> -->
+        </nav>
       </div>
     </header>
 
-    <section class="first__block">
+    <section id="main" class="first__block">
       <div class="support__fund">
         <h1 class="main__title">Фонд підтримки постраждалих від війни</h1>
         <p class="main__description">
@@ -48,7 +58,7 @@
       </p>
     </section>
 
-    <section class="description__directions">
+    <section id="description__directions" class="description__directions">
       <article class="description__block">
         <div class="description__text">
           <h3 class="description__title">Психологічна допомога</h3>
@@ -147,7 +157,7 @@
       <button class="button__funt">Дізнатися більше</button>
     </section>
 
-    <section class="section__footer">
+    <section id="contacts" class="section__footer">
       <div class="footer__contacts">
         <div class="contacts">
           <h2 class="contacts__text">Контакти</h2>
@@ -184,5 +194,6 @@
         </div>
       </div>
     </section>
+    <script src="style.js"></script>
   </body>
 </html>
