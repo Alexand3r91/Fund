@@ -1,6 +1,20 @@
-@media screen and (max-width: 501px) {
+@media screen and (max-width: 390px) {
+  * {
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat;
+    font-style: normal;
+    text-align: inherit;
+  }
+  body {
+    margin-left: 3.12rem;
+    width: 100%;
+  }
   .header {
     /* position: fixed; */
+    width: 31.3125rem;
+    height: 5.75rem;
+    background: #f1fdff;
   }
   .header__navigation {
   }
@@ -42,5 +56,72 @@
   .button__navigatorLast {
   }
   .button__funt {
+  }
+
+  .first__block {
+    background-image: url(img/fon390.png);
+    width: 40.1rem;
+    height: 64.8125rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+  }
+  .support__fund {
+    width: 21.3125rem;
+    display: flex;
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 2.3725rem;
+    letter-spacing: -0.05rem;
+    text-transform: uppercase;
+  }
+  .main__title {
+    width: 21.3125rem;
+    font-size: 2.5rem;
+    line-height: 2.3725rem;
+    padding-top: 39.99rem;
+    padding-left: 2rem;
+  }
+  .main__description {
+    width: 17.375rem;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    padding-left: 2rem;
+  }
+  .button__funt {
+  }
+  .button__funtWhite {
+    margin-left: 2rem;
+    margin-bottom: 4.06rem;
+  }
+
+  .section__description {
+    display: flex;
+    width: 24.375rem;
+    padding: 4.375rem 1.25rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .description__support {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    text-transform: uppercase;
+    text-align: inherit;
+    align-self: stretch;
+    width: 21.875rem;
+  }
+  .our__meta {
+    text-align: inherit;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    align-self: stretch;
+  }
+  .description__help {
+    text-align: inherit;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    align-self: stretch;
   }
 }
